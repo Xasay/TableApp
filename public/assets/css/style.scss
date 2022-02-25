@@ -1,0 +1,112 @@
+@import url("./reset.css");
+
+html {
+  background-color: #f4faff;
+}
+
+button {
+  color: black;
+}
+section {
+  background-color: #f4faff;
+}
+
+.search_form {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 30%;
+}
+
+.user_table_container {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 100%;
+  margin-top: 19px;
+  table:nth-child(2n) ;
+{
+    thead {
+      background-color: #F4FAFF;
+    }
+  }
+}
+
+th {
+  color: #85dbfe;
+}
+
+table,
+tr,
+td,
+thead,
+tbody {
+  border: none !important;
+  border-style: none !important;
+  border-top-color: none !important;
+  border-top-style: none !important;
+  border-top-width: none !important;
+  border-right-color: none !important;
+  border-right-style: none !important;
+  border-right-width: none !important;
+  border-bottom-color: none !important;
+  border-bottom-style: none !important;
+  border-bottom-width: none !important;
+  border-left-color: none !important;
+  border-left-style: none !important;
+  border-left-width: none !important;
+  border-image-source: none !important;
+  border-image-slice: none !important;
+  border-image-width: none !important;
+  border-image-outset: none !important;
+  border-image-repeat: none !important;
+}
+
+.table_heading tr {
+  font-weight: bold;
+
+  td {
+    color: #85dbfe;
+    width:145px /* calc(100% / 8 ) */;
+  }
+
+  i {
+    visibility: hidden;
+  }
+}
+
+.collapse_arrow i {
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  color: #85dbfe;
+}
+
+.collapse_arrow i.rotate_arrow {
+  transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+  -moz-transform: rotateZ(90deg);
+  -ms-transform: rotateZ(90deg);
+  -o-transform: rotateZ(90deg);
+}
+
+.main_tr{
+    td{
+        width:145px /* calc(100% /8) */;
+    }
+}
+
+.aditional_table th,
+.aditional_table td{
+    text-align: center;
+}
